@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animal Adoption Center</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: url('beautiful-background.jpg') no-repeat center center fixed;
+      background-size: cover;
+    }
+    nav {
+      background-color: #333;
+      color: #fff;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    .container {
+      width: 80%;
+      margin: auto;
+      overflow: hidden;
+    }
+    .animal {
+      float: left;
+      width: 30%;
+      margin: 2.5%;
+      padding: 10px;
+      background-color: #f4f4f4;
+    }
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Animals Available</a>
+    <!-- Add more buttons as needed -->
+  </nav>
+  <div class="container">
+    <div class="animal">
+      <img src="dog-placeholder.jpg" alt="Dog">
+      <h3>Dog Name</h3>
+      <p>Description about the dog available for adoption.</p>
+      <a href="#">More Info</a>
+    </div>
+    <div class="animal">
+      <img src="cat-placeholder.jpg" alt="Cat">
+      <h3>Cat Name</h3>
+      <p>Description about the cat available for adoption.</p>
+      <a href="#">More Info</a>
+    </div>
+    <!-- Add more animal sections as needed -->
+  </div>
+  <footer>
+    &copy; 2021 Animal Adoption Center
+  </footer>
+  <div class="form-container">
+    <h2>Adoption Form</h2>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+      <label for="animal">Animal of Interest:</label>
+      <select id="animal" name="animal">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <!-- Add more animal options as needed -->
+      </select>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+  <script>
+    // Add JavaScript logic as needed
+  </script>
+</body>
+</html>
