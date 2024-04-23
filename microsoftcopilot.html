@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption Center</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('background.jpg'); /* Replace with actual background image */
+            background-size: cover;
+            background-position: center;
+            color: #333;
+        }
+
+        /* Header styles */
+        header {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Navigation styles */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Main content styles */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .animal-card {
+            margin-bottom: 20px;
+        }
+
+        .animal-card img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: rgba(255, 255, 255, 0.8);
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Form styles */
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Animal Adoption Center</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Adopt</a>
+            <a href="#">Donate</a>
+            <!-- Add more buttons/icons here -->
+        </nav>
+    </header>
+    <div class="container">
+        <div class="animal-card">
+            <h2>Available Animals for Foster</h2>
+            <img src="dog.jpg" alt="Dog"> <!-- Replace with actual animal image -->
+            <p>Meet our adorable dogs! They are looking for loving homes.</p>
+            <!-- Add more animal details here -->
+        </div>
+        <!-- Add more animal cards here -->
+        <form>
+            <h2>Contact Us</h2>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Enter your message"></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <footer>
+        © 2023 Animal Adoption Center
+    </footer>
+</body>
+</html>
