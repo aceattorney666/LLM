@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Adoption Center</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Animal Adoption Center</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Animals Available</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+ 
+    <div class="animals-container">
+        <div class="animal">
+            <img src="images/dog.jpg" alt="Dog">
+            <h2>Max</h2>
+            <p>Max is a friendly and playful dog looking for a loving home.</p>
+            <button>Adopt Now</button>
+        </div>
+        <div class="animal">
+            <img src="images/cat.jpg" alt="Cat">
+            <h2>Luna</h2>
+            <p>Luna is a cuddly and affectionate cat waiting to bring joy to your home.</p>
+            <button>Adopt Now</button>
+        </div>
+    </div>
+ 
+    <footer>
+        <p>&copy; 2024 Animal Adoption Center. All rights reserved.</p>
+    </footer>
+ 
+    <form>
+        <h2>Adoption Form</h2>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="tel" id="phone" name="phone"><br>
+        <label for="animal">Select Animal:</label><br>
+        <select id="animal" name="animal">
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="rabbit">Rabbit</option>
+        </select><br>
+        <button type="submit">Submit</button>
+    </form>
+ 
+    <script src="script.js"></script>
+</body>
+</html>
